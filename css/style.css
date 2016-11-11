@@ -582,7 +582,7 @@ div.circle {
 .node-type-ticket .field-name-body {padding-top: 10px;}
 .node-type-ticket .group-row2 {margin: 0px; padding: 20px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
 .node-type-ticket .col-sm-9 .views-row {padding: 20px; border-bottom: 1px solid #ccc;}
-.node-type-ticket .ticket-node {background: #FDFADB;}
+.node-type-ticket .ticket-note {background: #FDFADB;}
 .node-type-ticket div.ticket-reply.Digital {padding-left: 15px; border-left: 5px solid #ccc;}
 .node-type-ticket .field-name-rediger a.btn {float: right; margin: -20px 5px 0px 0px;}
 
