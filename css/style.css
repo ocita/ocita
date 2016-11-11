@@ -1,0 +1,627 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #F8F8F8;
+  color: #404040;
+  /**font: 15px/20px 'Open Sans', sans-serif;**/
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 25px;
+}
+
+.main-container {
+  padding-top: 25px;
+}
+
+.node-type-article section.col-sm-12, .node-type-simplenews section.col-sm-9, .page-dok-intern-ip-adresser section.col-sm-9, .node-type-ticket section.col-sm-9,.node-type-article section.col-sm-9, .node-type-ekstern-dok .col-sm-9:nth-child(3),.page-itvagt section.col-sm-12, .page-itvagt section.col-sm-12, .page-user section.col-sm-12, .node-type-dokumentation .col-sm-9:nth-child(3), .page-itvagter .view-vagter, .gridbox {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.10);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+
+.footer {
+  border-top: 0px;
+}
+
+/** Typography **/
+
+.page-header {
+  text-align: center;
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+h2 {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  font-weight: 700;
+  margin: 0;
+  font-size: 25px;
+}
+
+h2 a {
+  color: #51616C;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+span.taxonomy, .field-group-bootstrap_grid_row  .field-name-field-simplenews-term {
+  color: #adadad;
+  text-transform: uppercase;
+}
+
+a {
+    color: #0077a2;
+    text-decoration: none;
+}
+a:hover {
+    color: #31B0D5;
+    text-decoration: underline;
+}
+
+
+img {max-width: 100%;}
+
+
+
+/** common **/
+
+.caret {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lefty {
+  float: left;
+}
+
+/** user login **/
+
+.page-user-login .col-sm-12, .page-user-password .col-sm-12 {
+  border: 0px !important;
+}
+
+.page-user-login .navbar-nav, .page-user-password .navbar-nav {
+  display: none;
+}
+
+/** navbar **/
+
+ .navbar {
+     height: 80px;
+     margin-bottom: 0px;
+     border: 0px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     font-weight: 700;
+ }
+
+.navbar-nav {
+   float: right;
+   margin: 0;
+}
+
+.navbar-inverse, .navbar .container {
+    background-color: #69C8CF;
+    border-color: #69C8CF;
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 7px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #0077a2;
+    border-radius: 3px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #31B0D5;
+    border-radius: 3px;
+}
+
+
+.nav>li>a {
+    padding: 10px 10px;
+}
+
+@media (min-width: 1000px) {
+  .navbar-nav.secondary {
+    float: right;
+  }
+  .navbar-nav.secondary li.first a{
+    border-left: 1px solid #fff;
+  }
+}
+
+
+/* nav collapse */
+
+.navbar-collapse {
+    max-height: 100%;
+}
+
+
+.navbar-inverse .navbar-collapse {
+  border: 0px; // removes black border
+}
+
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
+@media (min-width: 768px)
+.container {
+    width: 100%;
+}
+
+/* menu */
+
+.menu-block-wrapper ul {
+  padding: 0px;
+}
+
+.menu-block-wrapper li {
+  padding-left: 10px;
+  padding: 0px 10px;
+}
+
+.menu-block-wrapper li.leaf.active-trail {
+  color: #fff;
+  background-color: #0077a2;
+  border-radius: 3px;
+}
+
+.menu-block-wrapper li.leaf.active-trail a {
+  color: #fff;
+}
+
+/** page **/
+
+.page-header {
+  border: 0px;
+}
+
+/** forside **/
+
+
+.front .pane-simplenews-0 {
+  min-height: 460px;
+}
+
+.front .pane-simplenews-0 #edit-newsletters {
+  float: left;
+}
+
+.front .pane-simplenews-0 button {
+  float: right;
+}
+
+/** primary menu blocks **/
+
+.block-menu-block span.dropdown-toggle.nolink {
+  font-weight: bold;
+}
+
+.block-facetapi ul {
+  padding-left: 10px;
+}
+
+/** ansatte **/
+
+#edit-field-arbejdsomraede-value-wrapper {
+  margin-bottom: 30px;
+}
+
+div.views-submit-button {
+    margin-top: 8px;
+}
+
+.views-submit-button {
+}
+
+.page-ansatte-alle .views-field-field-billede img {
+  width: 100px;
+  max-width: 100px;  
+}
+
+
+.view-display-id-page .view-header {
+  margin-bottom: 15px;
+}
+
+.view-display-id-page_1 table {
+  background: #fff;
+}
+
+/* it vagter */
+
+.not-front .pane-vagter, .pane-vagth-ndelser {
+  padding: 0px 20px;
+}
+
+.not-front .pane-vagter, .not-front .pane-vagth-ndelser {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.pane-vagth-ndelser .views-field-field-time-shift {
+  width: 18%;
+}
+
+.pane-vagth-ndelser .views-field-body {
+  width: 60%;
+}
+
+.pane-vagth-ndelser .date-display-single, .pane-vagth-ndelser .date-display-range {
+  display: inline;
+}
+
+
+
+/* */
+
+.front .col-lg-4 .panel-pane{
+  text-align: center;
+}
+
+h2.pane-title {
+  font-size: 26px;
+  height: 29px;
+  line-height: 29.6px;
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+  text-align: center;
+}
+
+ h2.block-title {
+  font-size: 26px;
+  height: 29px;
+  line-height: 29.6px;
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+ }
+
+
+
+input#edit-submitted-email {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.webform-client-form button {
+  margin-top: 20px;
+}
+
+.front .node-webform .content {
+  margin-top: -25px;
+}
+
+.front .node-webform .content .webform-component--navn {
+  margin-top: 35px;
+}
+
+.front .view-display-id-page .views-row, .front .view-display-id-page_1 .views-row, .front .view-display-id-page_3 .views-row  {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0px;
+}
+
+/* 
+.front .view-display-id-page .views-row-first, .front .view-display-id-page_3 .views-row-first {
+  border-top: 1px solid #ccc;
+}
+*/
+
+.front .view-display-id-page .view-footer p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.front div.circle {
+  display: block;
+  margin: 20px auto 0px auto ; 
+}
+
+
+/* vagtplan */
+.views-field-field-tidspunkt {
+  text-align: center;
+}
+
+/* login */
+
+.not-logged-in .page-user {
+  text-align: center;
+}
+
+.not-logged-in .page-user .main-container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50%;
+  margin: auto;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.10);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.not-logged-in .page-user .breadcrumb {
+  display: none;
+}
+
+.not-logged-in .page-user #navbar {
+    position: absolute;
+    width: 100%;
+}
+
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+/* nyheder */
+
+.block-simplenews {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.block-simplenews button {
+  margin: 20px auto;
+}
+
+.block-facetapi h2, .block-search-api-sorts h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.views-exposed-widgets {
+  margin-bottom: 20px;
+}
+
+.views-exposed-form .views-exposed-widget {
+  float: left;
+  width: 80%;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+div.views-exposed-widget.views-submit-button {
+  float: right;
+  width:20%;
+  padding: 0px;
+  margin: 8px 0px 0px 0px;
+  text-align: left;
+}
+
+div.views-exposed-widget.views-submit-button button {
+  float: right;
+  width: 90%;
+  display: block;
+}
+
+.search-api-sorts img {
+  display: inline;
+  float: none;
+  margin: -3px 0 0 10px;
+}
+
+/* nyhed */
+
+.field-name-submitted-by {
+	border-top: 1px solid #CCC;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.group-left {
+	margin-top: 25px;
+}
+
+
+/* Driftmeddelser */
+
+.Løst div, .Løst span {
+	text-decoration: line-through;
+}
+
+/* */
+
+.node-type-dokumentation .col-sm-9:nth-child(2), .node-type-ekstern-dok .col-sm-9:nth-child(2) {padding: 0px;}
+
+/* font-awesome*/
+
+.front .alert-danger {
+    background-color: white;
+    border-color: white;
+}
+
+div.circle {
+  text-align: center;
+  border-radius: 50%;
+  background: #ddd;
+  width: 150px;
+  height: 150px;
+  color: #51616C;
+}
+
+.front .pane-block-1 i.fa, .front .pane-vagter i.fa {
+  margin: 40px 0 0 5px;
+}
+
+.front .pane-block-1  {
+  text-align: center;
+}
+
+.front .status i {
+  display: inline;
+  margin-bottom: 0px 0px 3px 8px;
+  background-color: #FFF;
+}
+
+.status span {
+  padding-left: 8px;
+}
+
+.right {
+  float: right;	
+}
+
+/* helpdesk */
+
+.page-helpdesk .views-widget-filter-combine {width: 50%; padding-right: 1%;}
+.page-helpdesk .views-widget-filter-field_prioritet_value {width: 10%; padding-right: 1%;}
+.page-helpdesk .views-widget-filter-field_ticket_status_value {width: 20%; padding-right: 1%;}
+.page-helpdesk .views-widget-filter-field_supporter_uid {width: 10%; padding-right: 1%;}
+.page-helpdesk div.views-exposed-widget.views-submit-button {width: 10%;}
+.page-helpdesk div.views-exposed-widget.views-reset-button {width: 10%; float: right; margin-top: 8px;}
+.page-helpdesk .view-content {background: #fff;}
+
+/* support ticket */
+#edit-field-prioritet-und, #edit-field-ticket-status-und, #edit-field-supporter-und {width: 100%;}
+
+.node-type-ticket .field-group-bootstrap_grid_row {padding-bottom: 	15px;}
+.node-type-ticket .field-name-title h2 {float: left;}
+.node-type-ticket .group-row1 button#edit-submit {display: none;}
+.node-type-ticket .group-row1 button#edit-submit--2 {display: none;}
+.node-type-ticket h1.page-header {display: none;}
+.node-type-ticket h2.field-name-title {float: left;} 
+.node-type-ticket .tabs--primary {display: none;}
+.node-type-ticket .field-name-node-id {float: right;}
+.node-type-ticket .field-name-submitted-by {clear: left;}
+.node-type-ticket .field-name-body {padding-top: 10px;}
+.node-type-ticket .group-row2 {margin: 0px; padding: 20px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.node-type-ticket .col-sm-9 .views-row {padding: 20px; border-bottom: 1px solid #ccc;}
+.node-type-ticket .ticket-node {background: #FDFADB;}
+.node-type-ticket div.ticket-reply.Digital {padding-left: 15px; border-left: 5px solid #ccc;}
+.node-type-ticket .field-name-rediger a.btn {float: right; margin: -20px 5px 0px 0px;}
+
+/* support modal */
+
+.page-forside #btn-modal .btn {display: block; width: 100%; margin-bottom: 15px; font-size: 26px; font-weight: 500,}
+.modal-content {padding: 20px;}
+
+/* admin fixes */
+
+.page-admin .form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px;
+}0
+
+.page-node-edit .date-no-float { float: left; width: auto; clear: none; }
+.page-node-edit .date-no-float > .form-item > label { float: left; margin: 34px 40px 0 30px; }
+.page-node-edit .start-date-wrapper { clear: left; }
+.page-node-edit label[for=edit-field-tidspunkt-und-0-value-datepicker-popup-0], .page-node-edit label[for=edit-field-tidspunkt-und-0-value2-datepicker-popup-0] {
+  display: none;
+}
+
+.page-node-edit .date-no-float > .form-item > label {
+    margin: 15px 40px 0px 30px;
+}
+
+.quickedit-form {max-width: 100%;}
+
+/* hacks */
+
+#edit-field-simplenews-term-wrapper, #edit-field-afdeling-wrapper {
+  display: none;
+}
+.node-type-ekstern-dok div.view-empty {
+  display: none;
+}
+
+/* print */
+
+.print-content .row {
+  margin: 10px!important;
+}
