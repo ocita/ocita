@@ -283,7 +283,7 @@ div.views-submit-button {
 
 .page-ansatte-alle .views-field-field-billede img {
   width: 100px;
-  max-width: 100px;  
+  max-width: 100px;
 }
 
 
@@ -382,7 +382,7 @@ input#edit-submitted-email {
   padding: 15px 0px;
 }
 
-/* 
+/*
 .front .view-display-id-page .views-row-first, .front .view-display-id-page_3 .views-row-first {
   border-top: 1px solid #ccc;
 }
@@ -395,7 +395,7 @@ input#edit-submitted-email {
 
 .front div.circle {
   display: block;
-  margin: 20px auto 0px auto ; 
+  margin: 20px auto 0px auto ;
 }
 
 
@@ -470,9 +470,9 @@ input#edit-submitted-email {
 
 .views-exposed-form .views-exposed-widget {
   float: left;
-  width: 80%;
+
   margin: 0px;
-  padding: 0px;
+  
   text-align: left;
 }
 
@@ -554,7 +554,7 @@ div.circle {
 }
 
 .right {
-  float: right;	
+  float: right;
 }
 
 /* helpdesk */
@@ -575,7 +575,7 @@ div.circle {
 .node-type-ticket .group-row1 button#edit-submit {display: none;}
 .node-type-ticket .group-row1 button#edit-submit--2 {display: none;}
 .node-type-ticket h1.page-header {display: none;}
-.node-type-ticket h2.field-name-title {float: left;} 
+.node-type-ticket h2.field-name-title {float: left;}
 .node-type-ticket .tabs--primary {display: none;}
 .node-type-ticket .field-name-node-id {float: right;}
 .node-type-ticket .field-name-submitted-by {clear: left;}
