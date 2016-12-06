@@ -470,7 +470,7 @@ input#edit-submitted-email {
 
 .views-exposed-form .views-exposed-widget {
   float: left;
-
+  
   margin: 0px;
   
   text-align: left;
@@ -559,6 +559,8 @@ div.circle {
 
 /* helpdesk */
 
+.page-helpdesk .table-bordered > tbody > tr.Obib > td:first-child {border-left: 5px solid #ccc;}
+.page-helpdesk .table-bordered > tbody > tr.Fynbib > td:first-child {border-left: 5px solid #ccc;}
 .page-helpdesk .views-widget-filter-combine {width: 50%; padding-right: 1%;}
 .page-helpdesk .views-widget-filter-field_prioritet_value {width: 10%; padding-right: 1%;}
 .page-helpdesk .views-widget-filter-field_ticket_status_value {width: 20%; padding-right: 1%;}
@@ -596,7 +598,7 @@ div.circle {
 .page-admin .form-horizontal .form-group {
   margin-right: 0px;
   margin-left: 0px;
-}0
+}
 
 .page-node-edit .date-no-float { float: left; width: auto; clear: none; }
 .page-node-edit .date-no-float > .form-item > label { float: left; margin: 34px 40px 0 30px; }
