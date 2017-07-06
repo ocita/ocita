@@ -470,11 +470,20 @@ input#edit-submitted-email {
 
 .views-exposed-form .views-exposed-widget {
   float: left;
-  
   margin: 0px;
-  
   text-align: left;
 }
+
+
+#edit-search-api-views-fulltext-wrapper {
+  width: 80%;	
+}
+
+.views-exposed-form .views-exposed-widget .btn {
+    margin-top: 2.1em;
+}
+
+
 
 div.views-exposed-widget.views-submit-button {
   float: right;
@@ -566,8 +575,11 @@ div.circle {
 .page-helpdesk .views-widget-filter-field_ticket_status_value {width: 20%; padding-right: 1%;}
 .page-helpdesk .views-widget-filter-field_supporter_uid {width: 10%; padding-right: 1%;}
 .page-helpdesk div.views-exposed-widget.views-submit-button {width: 10%;}
-.page-helpdesk div.views-exposed-widget.views-reset-button {width: 10%; float: right; margin-top: 8px;}
+.page-helpdesk div.views-exposed-widget.views-reset-button {width: 10%; float: right;}
 .page-helpdesk .view-content {background: #fff;}
+.page-helpdesk-all #edit-name-wrapper {width: 40%; padding-right: 0;}
+.page-helpdesk-all .form-item-created-min, .page-helpdesk-all .form-item-created-max {display: inline-block; margin-top: -25px; margin-left: 5px;}
+.page-helpdesk-all .form-item-created-max label {display: none;}
 
 /* support ticket */
 #edit-field-prioritet-und, #edit-field-ticket-status-und, #edit-field-supporter-und {width: 100%;}
