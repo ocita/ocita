@@ -528,6 +528,17 @@ div.views-exposed-widget.views-submit-button button {
 
 .node-type-dokumentation .col-sm-9:nth-child(2), .node-type-ekstern-dok .col-sm-9:nth-child(2) {padding: 0px;}
 
+/* fbs dark theme */
+
+.fbs {
+	background: #444;
+	color: white;	
+}
+
+.fbs a:link {
+	color: #68afdd;
+} 
+
 /* font-awesome*/
 
 .front .alert-danger {
